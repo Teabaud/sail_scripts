@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "sail-scripts"
+version = "0.1.0"
+description = ""
+authors = ["Thibaud Veron"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.13.3"
+langdetect = "^1.0.9"
+pandas = "^2.2.3"
+tqdm = "^4.67.1"
+selenium = "^4.29.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+isort = "^6.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
